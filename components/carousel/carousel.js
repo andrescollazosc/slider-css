@@ -4,7 +4,6 @@ const slider = document.getElementById("slider");
 const menu = document.getElementById("menu");
 
 function loadData() {
-    console.log(imageArray);
     for (let index = 0; index < imageArray.length; index++) {
         const element = imageArray[index];
         slider.append(createSlideElement(element));
@@ -29,7 +28,6 @@ function createMenu(slideImage) {
 
     const link = document.createElement("a");
     link.href = "#slide" + slideImage.id;
-    // link.textContent = slideImage.id;
 
     const icon = document.createElement('i');
     icon.classList.add('fas', 'fa-circle');
