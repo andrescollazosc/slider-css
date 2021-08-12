@@ -1,0 +1,14 @@
+:root {
+    --primary-green: #1fde82;
+    --primary-light-gray: #f7faff;
+    --primary-dark-gray: #39424e;
+    --black-github: #0d1117;
+    --green-hackerrank: #1ba94c;
+    --blue-twitter: #1da1f2;
+    --blue-linkedin: #0a66c2;
+}
+
+body {
+    margin: 0;
+    background-color: var(--primary-light-gray);
+}
