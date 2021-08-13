@@ -30,10 +30,12 @@ p {
 
 .scroll-touch {
     -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
     /* Lets it scroll lazy */
 }
 
 .scroll-auto {
     -webkit-overflow-scrolling: auto;
+    overflow-x: hidden;
     /* Stops scrolling immediately */
 }
