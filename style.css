@@ -29,13 +29,15 @@ p {
 }
 
 .scroll-touch {
-    -webkit-overflow-scrolling: touch;
+    /* -webkit-overflow-scrolling: touch; */
+    overflow: scroll;
     overflow-x: hidden;
     /* Lets it scroll lazy */
 }
 
 .scroll-auto {
-    -webkit-overflow-scrolling: auto;
+    /* -webkit-overflow-scrolling: auto; */
+    overflow: scroll;
     overflow-x: hidden;
     /* Stops scrolling immediately */
 }
